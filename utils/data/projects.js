@@ -2,6 +2,7 @@ export const projects = [
     {
       id: 1,
       name: 'Smart Fit',
+      link: 'https://github.com/Sankeerthan-RN/Smart-Fit', 
       summary: "Research project focusing on utilizing  computer vision and machine learning techniques to obtain accurate body measurements for personalized e-commerce sizing, simplifying data requirements and reducing errors and returns.",
       description: `
         <p class="mb-4">Research project focusing on utilizing  computer vision and machine learning techniques to obtain accurate body measurements for personalized e-commerce sizing, simplifying data requirements and reducing errors and returns.</p>
@@ -21,10 +22,11 @@ export const projects = [
     {
       id: 2,
       name: 'Automated Car Insurance',
+      link: 'https://github.com/Sankeerthan-RN/Automated-Car-Insurance-Claims', 
       summary: "This project automates car damage detection, classification, and cost estimation, enhancing safety, accelerating claim processing, and improving customer convenience during critical situations.",
       description: `
         <p class="mb-4">This project automates car damage detection, classification, and cost estimation, enhancing safety, accelerating claim processing, and improving customer convenience during critical situations.</p>
-        <p class="font-semibold mb-2 text-pink">Features:</p>
+        <p class="font-semibold mb-2 text-pink">KeyFeatures:</p>
         <ul class="list-disc list-inside space-y-4 text-gray-300">
           <li><span class=" text-green">Multi-Stage Classification: : </span>Built a Convolutional Neural Netwotk model Validates the image as a car,Detects if the car has damage,classifies damage location (front, rear, or side),damage severity (minor, moderate,severe) and determines cost.</li>
           <li><span class=" text-green">Deep Learning Models for Enhanced Accuracy: </span> Utilizes advanced architectures like ResNet50, InceptionV3, VGG16, and VGG19 for accurate predictions.</li>
@@ -38,10 +40,11 @@ export const projects = [
     {
       id: 3,
       name: 'Socks Card  validation ',
+      link:'https://github.com/Sankeerthan-RN/Automation_in_socks_label_validation-main',
       summary: "A freelance project developed for a sock production company to automate and streamline socks card label validation using deep learning and computer vision techniques",
       description: `
         <p class="mb-4">A freelance project developed for a sock production company to automate and streamline socks card label validation using deep learning and computer vision techniques.</p>
-        <p class="font-semibold mb-2 text-pink">Achievements:</p>
+        <p class="font-semibold mb-2 text-pink">Key Features:</p>
         <ul class="list-disc list-inside space-y-4 text-gray-300">
           <li><span class=" text-green">High-Accuracy Object Detection:</span>  Designed an algorithm using YOLOv3 and the custom dataset to detect and isolate the socks card from the background..</li>
           <li><span class=" text-green">Template Matching :</span>  Identifies the position of features (text, images) in the test socks card by matching coordinates stored in the master socks card database.</li>
@@ -53,6 +56,25 @@ export const projects = [
       `,
       tools: "OpenCV, Keras, TensorFlow, YOLOv3, PyQt5 , Python, Sql",
       image: '/image/sockscardValidation.png',
+    },
+
+    {
+      id: 4,
+      name: 'Water Supply Management ',
+      link: 'https://github.com/Sankeerthan-RN/WSM',
+      summary: "This project is the end-to-end case study of OOPs. Its works using the object-oriented concepts. It includes concepts of inheritance, abstract, data structure, exceptional handling etc",
+      description: `
+        <p class="mb-4">This project is the end-to-end case study of OOPs. Its works using the object-oriented concepts. It includes concepts of inheritance, abstract, data structure, exceptional handling etc.</p>
+        <p class="font-semibold mb-2 text-pink">KeyFeatures:</p>
+        <ul class="list-disc list-inside space-y-4 text-gray-300">
+          <li><span class=" text-green">Object-Oriented Design:</span>  Utilizes core object-oriented programming concepts such as inheritance, abstraction, data structures, and exception handling for robust and modular code.</li>
+
+          <li><span class=" text-green">Modular Architecture:</span>The project includes two key functions: the User can register, file grievances, and explore data, while the Admin can review and manage those grievances.</li>
+           <li><span class=" text-green">Efficient Data Management::</span> Employs structured data handling and processing for registration, grievance filing, and consumption data visualization..</li>
+        </ul>
+      `,
+      tools: "Java Swing, AWT, Java,MySQL",
+      image: '/image/wsm.png',
     },
   ];
   
